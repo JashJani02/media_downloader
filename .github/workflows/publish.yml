@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/media_downloader
+      url: https://pypi.org/p/multimedia_downloader
     permissions:
       id-token: write # Mandatory for Trusted Publishing
       contents: read
