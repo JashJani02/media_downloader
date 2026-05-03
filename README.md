@@ -53,33 +53,33 @@ Install directly from PyPI using pip or  uv.
 
 **Using pip:**
 
-<pre>pip install multimedia-downloader</pre>
+<pre><code>pip install multimedia-downloader</code></pre>
 
 **Using uv:**
 
-<pre>uv pip install multimedia-downloader</pre>
+<pre><code>uv pip install multimedia-downloader</code></pre>
 
 ### **Method B: Cloning the Repository (Development)**
 
 If you want to modify the source code or contribute locally:
 
-1) Clone the repository<pre>git clone https://github.com/JashJani02/multimedia-downloader.git</pre>
-2) Change directory<pre>cd multimedia-downloader</pre>
-3) Create a Virtual Environment<pre>python -m venv .venv</pre>
-4) Activate the venv<ul><li>Windows<pre>.venv\Scripts\activate</pre></li><li>Linux/Mac-OS<pre>source .venv/bin/activate</pre></li></ul>
-5) Install the dependencies<pre>pip install -e .</pre>
+1) Clone the repository<pre><code>git clone https://github.com/JashJani02/multimedia-downloader.git</code></pre>
+2) Change directory<pre><code>cd multimedia-downloader</code></pre>
+3) Create a Virtual Environment<pre><code>python -m venv .venv</code></pre>
+4) Activate the venv<ul><li>Windows<pre><code>.venv\Scripts\activate</code></pre></li><li>Linux/Mac-OS<pre><code>source .venv/bin/activate</code></pre></li></ul>
+5) Install the dependencies<pre><code>pip install -e .</code></pre>
 
 ## **📖 API Reference & Usage**
 
 The easiest way to use the library is via the Client class.
 
 ### **Initializing the Client**
-<pre>
+<pre><code>
 from media_downloader import Client
 
 # Files will be saved in the specified directory  
 client = Client(download_dir="my_downloads")
-</pre>
+</code></pre>
 ### **1. Audio & Video**
 
 Powered by yt-dlp, supporting YouTube and 1000+ other sites.
@@ -100,8 +100,7 @@ Specialized scrapers for Instagram, Reddit, Unsplash, and more.
 | download_images(url) | url: str | Scrapes the URL and saves all found images to the disk. |
 
 ## **💡 Example Usage**
-<pre>
-from media_downloader import Client
+<pre><code>from media_downloader import Client
 
 client = Client()
 
@@ -110,7 +109,7 @@ client.download_video(("https://youtu.be/dQw4w9WgXcQ"), resolution=1080)
 
 # Download high-res images from an Instagram post  
 client.download_images("(https://www.instagram.com/p/DTTUGFOiCys/)")
-</pre>
+</code></pre>
 
 ## **🔗 References & Credits**
 
