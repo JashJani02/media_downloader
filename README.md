@@ -74,8 +74,7 @@ If you want to modify the source code or contribute locally:
 The easiest way to use the library is via the Client class.
 
 ### **Initializing the Client**
-<pre><code>
-from media_downloader import Client
+<pre><code>from media_downloader import Client
 
 # Files will be saved in the specified directory  
 client = Client(download_dir="my_downloads")
