@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "media_downloader"
-version = "1.0.0"
+name = "multimedia_downloader"
+version = "1.0.8"
 description = "Universal media downloader for images, videos, and audio from multiple platforms"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -20,14 +20,14 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/JashJani02/media_downloader"
-Repository = "https://github.com/JashJani02/media_downloader"
-Issues = "https://github.com/JashJani02/media_downloader/issues"
+Homepage = "https://github.com/JashJani02/multimedia_downloader"
+Repository = "https://github.com/JashJani02/multimedia_downloader"
+Issues = "https://github.com/JashJani02/multimedia_downloader/issues"
 
 [tool.setuptools]
 package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["media_downloader*"]
+include = ["multimedia_downloader*"]
 exclude = ["test*"]
