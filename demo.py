@@ -1,4 +1,4 @@
-from media_downloader import Client
+from multimedia_downloader import Client
 
 client = Client()
 

@@ -1,8 +1,8 @@
 import requests
 
-from media_downloader.audio_video import AudioVideoDownloader
-from media_downloader.image.dispatcher import get_extractor
-from media_downloader.utils.file_manager import save_file
+from multimedia_downloader.audio_video import AudioVideoDownloader
+from multimedia_downloader.image.dispatcher import get_extractor
+from multimedia_downloader.utils.file_manager import save_file
 
 
 class Client:
