@@ -3,7 +3,7 @@ name: Publish to PyPI
 on:
   push:
     tags:
-      - 'v*' # Trigger only when you push a tag like v1.0.0
+      - 'v*'
 
 jobs:
   build-n-publish:
@@ -13,7 +13,7 @@ jobs:
       name: pypi
       url: https://pypi.org/p/multimedia_downloader
     permissions:
-      id-token: write # Mandatory for Trusted Publishing
+      id-token: write # Required for Trusted Publishing
       contents: read
 
     steps:
@@ -32,3 +32,7 @@ jobs:
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # This action automatically detects the OIDC token if 
+          # permissions are set correctly.
+          print-hash: true
