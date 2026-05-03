@@ -119,4 +119,4 @@ This universal library is the evolution of my specialized downloader projects:
 
 ## **⚖ License**
 
-This project is licensed under the **MIT License** \- see the [LICENSE](https:/github.com/JashJani02/multimedia_downloader/blob/main/LICENSE) file for details.
+This project is licensed under the **MIT License** \- see the [LICENSE](https://github.com/JashJani02/multimedia_downloader/blob/main/LICENCE) file for details.
