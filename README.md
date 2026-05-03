@@ -66,8 +66,7 @@ If you want to modify the source code or contribute locally:
 1) Clone the repository<pre>git clone https://github.com/JashJani02/multimedia-downloader.git</pre>
 2) Change directory<pre>cd multimedia-downloader</pre>
 3) Create a Virtual Environment<pre>python -m venv .venv</pre>
-4) Activate the venv
-<ul><li>Windows<pre>.venv\Scripts\activate</pre></li><li>Linux/Mac-OS<pre>source .venv/bin/activate</pre></li></ul>
+4) Activate the venv<ul><li>Windows<pre>.venv\Scripts\activate</pre></li><li>Linux/Mac-OS<pre>source .venv/bin/activate</pre></li></ul>
 5) Install the dependencies<pre>pip install -e .</pre>
 
 ## **📖 API Reference & Usage**
